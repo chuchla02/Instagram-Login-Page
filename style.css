@@ -1,0 +1,212 @@
+* {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+}
+
+body{
+    height: 100vh;
+    width:100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+}
+
+.container__left {
+    background-image: url('https://www.instagram.com/static/images/homepage/phones/home-phones-2x.png/cbc7174b4f05.png');
+    background-size: 90%;
+    height: 600px;
+    width: 400px;
+    background-repeat: no-repeat;
+    margin-top: 20px;
+    transform: scale(1.3);
+}
+
+@keyframes screenChanger {
+    0%,13% {
+        background-image: url('https://www.instagram.com/static/images/homepage/screenshots/screenshot1.png/fdfe239b7c9f.png'); 
+    }
+    20%, 27%, 34%, 41% {
+        background-image: url('https://www.instagram.com/static/images/homepage/screenshots/screenshot2.png/4d62acb667fb.png');
+    }
+     48%, 55%, 62%, 69% {
+        background-image: url('https://www.instagram.com/static/images/homepage/screenshots/screenshot3.png/94edb770accf.png');
+    }
+     76%, 83%, 90%, 93% {
+        background-image: url('https://www.instagram.com/static/images/homepage/screenshots/screenshot4.png/a4fd825e3d49.png');
+    }
+    100% {
+        background-image: url('https://www.instagram.com/static/images/homepage/screenshots/screenshot1.png/fdfe239b7c9f.png'); 
+    }
+    
+}
+
+.screen {
+    background-image: url('https://www.instagram.com/static/images/homepage/screenshots/screenshot1.png/fdfe239b7c9f.png');
+    width: 250px;
+    height: 541px;
+    background-repeat: no-repeat;
+    transform: scale(0.774);
+    position: relative;
+    left: 92px;
+    top: -40px;
+    animation: screenChanger 20s linear infinite;
+}
+
+.container__right{
+    width:350px;
+    margin-top:-55px;
+
+}
+
+.container__right--login{
+    padding: 47px;
+    height: 400px;
+    text-align: center;
+    border: 1px solid rgba(128, 128, 128, 0.3)
+}
+
+.container__right--noacc{
+border: 1px solid rgba(128, 128, 128, 0.3);
+height: 60px;
+margin-top: 10px;
+display: flex;
+justify-content: center;
+align-items: center;
+font-size: 14px;
+}
+
+input {
+    width:270px;
+    border-radius: 3px;
+    margin:3px;
+    padding:10px;
+    border:1px solid rgba(128, 128, 128, 0.3);
+    font-size:12px;
+    margin-left: -10px;
+}
+
+input[type='text'] {
+    margin-top:35px;
+    
+}
+
+input:focus{
+   outline:none;
+   border:1px solid rgba(128, 128, 128, 0.9)
+}
+
+button{
+    background-color: #b2dffc;
+    border:none;
+    color:white;
+    font-weight: 600;
+    font-size: 14px;
+    height: 30px;
+    margin-top:10px;
+    width: 270px;
+    border-radius: 5px;
+    margin-left: -10px;
+}
+
+::placeholder{
+    color:rgba(128, 128, 128, 0.9)
+}
+
+.Or {
+    margin-top:16px;
+    color:rgba(128, 128, 128, 0.9);
+    font-weight: 600;
+    font-size: 13px;
+    width: 260px;
+    display: flex;
+}
+
+.underline{
+    border-top: 1px solid rgba(128, 128, 128, 0.3);
+    width: 200px;
+    margin-left: -9px;
+    margin-top: 8px;
+}
+
+img[src="img/fb.png"] {
+    width: 16px;
+    position: relative;
+    top:3px;
+    left: -5px;
+}
+
+#facebook {
+    margin-top: 5.5px;
+    color:#385185;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+#notKnow {
+    color:#003783;
+    font-size: 12px;
+}
+
+a {
+    color: #0095F6;
+    font-weight: 600;
+}
+
+.container__right--downl {
+    text-align: center;
+    padding: 20px;
+    font-size: 14px;
+    width:350px;
+    height: 102px;
+}
+.container__right--downl--stores {
+    display: flex;
+    position: relative;
+    top:20px;
+    left:15px;
+}
+
+.footer {
+    position: fixed;
+    bottom: 30px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 1150px;
+    height: 105px;
+    font-size: 12px;
+    color: #6a6a6a;
+}
+
+span {
+    margin-right: 1.2em;
+}
+
+#footerMargin {
+    margin-top: -38px;
+}
+
+.footer__madeBy {
+    position: fixed;
+    bottom: 60px;
+    color: #6a6a6a;
+    font-size: 12px;
+    margin-left: 110px;
+}
+
+.footer__madeBy a {
+    color: #6a6a6a;
+    font-weight: 700;
+}
+
+
+select {
+    
+
+}
