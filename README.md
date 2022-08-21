@@ -1,7 +1,6 @@
 # 1:1-Instagram-Login-Page
 
-Comparison |
-           V
+Comparison below
            
  made by me:
  ![by me](https://user-images.githubusercontent.com/108734792/185809540-4d9ec2bf-ddaa-4ebd-81d3-d08c9514e7dd.png)
