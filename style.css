@@ -55,8 +55,7 @@ body{
     position: relative;
     left: 92px;
     top: -40px;
-    animation: screenChanger 20s linear infinite;
-    animation-direction: alternate;
+    animation: screenChanger 11s linear infinite;
 }
 
 .container__right{
