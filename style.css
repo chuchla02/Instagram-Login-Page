@@ -61,7 +61,7 @@ body{
 .container__right{
     width:350px;
     margin-top:-55px;
-    color:white;
+    background-color:white;
 
 }
 
@@ -69,8 +69,8 @@ body{
     padding: 47px;
     height: 400px;
     text-align: center;
-    border: 1px solid rgba(128, 128, 128, 0.3)
-    color:white;
+    border: 1px solid rgba(128, 128, 128, 0.3);
+    background-color:white;
 }
 
 .container__right--noacc{
@@ -81,7 +81,7 @@ display: flex;
 justify-content: center;
 align-items: center;
 font-size: 14px;
-color:white;
+background-color:white;
 }
 
 input {
