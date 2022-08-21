@@ -3,7 +3,8 @@
 Comparison below
            
  made by me:
- ![by me](https://user-images.githubusercontent.com/108734792/185809540-4d9ec2bf-ddaa-4ebd-81d3-d08c9514e7dd.png)
+ ![by me](https://user-images.githubusercontent.com/108734792/185812631-d204e28b-97a9-4d1b-bf4e-c2df38a8ba95.png)
+
 
 made by instagram:
 ![by meta](https://user-images.githubusercontent.com/108734792/185809553-568aa3bc-e7bb-42b5-8ccc-69730f5923f9.png)
